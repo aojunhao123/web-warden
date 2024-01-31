@@ -1,0 +1,27 @@
+{
+  "name": "web-warden",
+  "private": true,
+  "version": "1.0.0",
+  "description": "前端监控SDK，可用来收集并上报：代码报错、性能数据、用户行为、加载资源、个性化指标等数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web warden",
+    "web monitor",
+    "web warden sdk"
+  ],
+  "author": "小豪",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "2.78.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "4.9.4"
+  }
+}
