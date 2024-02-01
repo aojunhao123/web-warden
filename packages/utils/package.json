@@ -3,6 +3,10 @@
   "version": "2.1.0",
   "description": "",
   "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {},
   "type": "module",
   "files": [

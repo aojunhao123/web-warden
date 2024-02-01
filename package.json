@@ -17,6 +17,10 @@
   ],
   "author": "小豪",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aojunhao123/web-warden.git"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@rollup/plugin-commonjs": "^25.0.7",
