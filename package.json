@@ -5,7 +5,10 @@
   "description": "前端监控SDK，可用来收集并上报：代码报错、性能数据、用户行为、加载资源、个性化指标等数据",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
   },
   "keywords": [
     "web warden",
@@ -15,6 +18,7 @@
   "author": "小豪",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
